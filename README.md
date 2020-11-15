@@ -1,0 +1,1 @@
+#### This repository stores my educational projects, written in Go.
