@@ -1,0 +1,21 @@
+pre {
+    width: 90vw;
+    height: 80vh;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    overflow: auto;
+    padding: 2%;
+    background-color: #fff;
+    font-size: small;
+}
+
+span.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+a {
+    margin: 0 10px;
+}

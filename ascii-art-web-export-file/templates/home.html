@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/css/public.css">
+    <link rel="stylesheet" href="public/css/home.css">
+</head>
+
+<body>
+    <h1>Ascii-Art-Web</h1>
+    <sub>Ascii art generator</sub>
+
+    <form action="/process" method="POST" enctype="application/x-www-form-urlencoded">
+        <span class="input">
+            <input class="input__field input__field--kyo" type="text" id="string" name="string" />
+            <label class="input__label input__label--kyo" for="input-19">
+                <span class="input__label-content input__label-content--kyo">Enter a text</span>
+            </label>
+        </span>
+
+        <span class="input input--banner">
+            <select class="input__field input__field--banner" name="banner" id="banner-select">
+                <option class="input__select--banner" value="standard">standard</option>
+                <option class="input__select--banner" value="shadow">shadow</option>
+                <option class="input__select--banner" value="thinkertoy">thinkertoy</option>
+            </select>
+            <label class="input__label" for="banner-select" name="banner">
+                <span class="input__label-content input__label-content--banner">Select banner</span>
+            </label>
+            <input class="btn input__field" type="submit">
+        </span>
+    </form>
+
+</body>
+
+</html>
