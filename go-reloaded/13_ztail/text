@@ -1,0 +1,14 @@
+The tail command can also monitor data streams and open files,
+displaying new information as it is written. For example, 
+it's a useful way to monitor the newest events in a system log in real time.
+
+By default, tail prints the last 10 lines of each file to standard output. 
+If you specify more than one file, 
+each set of output is prefixed with a header showing the file name.
+
+Keep trying to open a file even if it is temporarily inaccessible; 
+useful with the --follow=name option.
+
+Outputs the last 10 lines of myfile.txt, 
+and monitors myfile.txt for updates; 
+tail then continues to output any new lines that are added to myfile.txt.
