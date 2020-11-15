@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>WEB</title>
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" rel="stylesheet">
+</head>
+
+<body>
+        <div class="main">
+            <center>
+                <h1>ascii-art-web</h1>
+                    
+                <form method="POST">
+                    <textarea class="textarea" name="text" placeholder="Type Something">{{.Input}}</textarea>
+                    <br>
+
+                    <label>font style: </label>
+
+                    <select name="fs" class="fonts">
+                        <option value="fontStyle/3d.txt" selected>3 - D</option>
+                        <option value="fontStyle/graffiti.txt">graffiti</option>
+                        <option value="fontStyle/standard.txt">standard</option>
+                        <option value="fontStyle/shadow.txt">shadow</option>
+                        <option value="fontStyle/thinkertoy.txt">thinkertoy</option>
+                    </select><br>
+
+                    <button class="btn">print</button>
+                </form>
+
+            </center>
+        </div>
+    
+    <section class="out">
+        <div class="output_text">
+            <pre>{{.Output}}</pre>
+        </div>
+    </section>
+</body>
+</html>

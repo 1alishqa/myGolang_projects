@@ -1,0 +1,102 @@
+body {
+    font-family: 'Nunito', sans-serif;
+	/* background: black; */
+	background: #292e33;
+	font-size: 20px;
+	color: #555;
+	/* animation: colorchange 7s linear 1s infinite;
+	-webkit-animation: colorchange 7s linear 0s infinite alternate; */ /*Chrome & Safari */
+}
+/*
+@keyframes colorchange {
+	0% {background: #292e33;}
+	50% {background: black;}
+	100% {background: #292e33;}
+}
+
+@-webkit-keyframes colorchange {
+	0% {background: #292e33;}
+	50% {background: black;}
+	100% {background: #292e33;}
+}*/
+
+.main {
+	/* background: #292e33; */
+	/* background: black; */
+	color: #fff;
+	margin: 0px;
+}
+
+.textarea {
+	color: #555;
+	margin-bottom: 15px;
+}
+
+.fonts {
+	color: #555;
+}
+
+.btn {
+	color: #fff;
+	border-radius: 4px;
+	background: #2196F3;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	padding: 12px 25px;
+	font-family: 'Courier New';
+}
+
+button {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+
+	opacity: 0.9;
+}
+
+button:hover {
+	opacity: 1;
+}
+
+h1 {
+	color: rgb(251, 255, 0);
+	margin: 0px;
+}
+
+textarea {	
+	width: 30%;
+	padding: 15px;
+	flex: 2;
+	height: 83px;
+	font-size: 20px;
+	color: #555;
+}
+
+.out {
+	background: #fff;
+	/* color: black; */
+	animation: colorchangeText 6s linear 1s infinite;
+	-webkit-animation: colorchangeText 6s linear 0s infinite alternate; /*Chrome & Safari */
+}
+
+.output_text {
+	margin: 0px 70px 0px 70px;
+	padding: 10px 0px 25px 0px;
+}
+
+@keyframes colorchangeText {
+	0% {color: black;}
+	25% {color: blue;}
+	50% {color: rgb(0, 245, 0);}
+	75% {color: #ff0f0f;}
+	100% {color: black;}
+}
+
+@-webkit-keyframes colorchangeText {
+	0% {color: black;}
+	25% {color: blue;}
+	50% {color: rgb(0, 245, 0);}
+	75% {color: #ff0f0f;}
+	100% {color: black;}
+}
